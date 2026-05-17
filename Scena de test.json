@@ -1,0 +1,143 @@
+{
+    "metadata": {
+        "grid_size": 32,
+        "grid_cols": 20,
+        "grid_rows": 15,
+        "dead_tiles": [],
+        "terrain_image": null
+    },
+    "objects": [
+        {
+            "x": 256,
+            "y": 128,
+            "width": 32,
+            "height": 32,
+            "attributes": {
+                "behavior": "idle",
+                "custom_items": {
+                    "Wooden Sword": {
+                        "damage_bonus": 20
+                    }
+                },
+                "damage": 25,
+                "equipped_sword": "Wooden Sword",
+                "equipped_weapon": "Wooden Sword",
+                "facing": "down",
+                "game_mode": "Toate",
+                "height": 1,
+                "hp": 100,
+                "inventory": [],
+                "item_types": {
+                    "Wooden Sword": "sword"
+                },
+                "range": 1,
+                "resistance": 0,
+                "size": 1,
+                "speed": 1,
+                "type": "PlayerRPG",
+                "width": 1
+            }
+        },
+        {
+            "x": 160,
+            "y": 64,
+            "width": 32,
+            "height": 32,
+            "attributes": {
+                "custom_items": {
+                    "Helmet": {
+                        "block_bonus": 0,
+                        "damage_bonus": 0,
+                        "hp_bonus": 0,
+                        "resistance": 0,
+                        "speed_bonus": 0
+                    }
+                },
+                "height": 1,
+                "item_types": {
+                    "Helmet": "Helmet"
+                },
+                "name": "Helmet",
+                "size": 1,
+                "type": "Collectible",
+                "width": 1
+            }
+        },
+        {
+            "x": 416,
+            "y": 32,
+            "width": 32,
+            "height": 32,
+            "attributes": {
+                "behavior": "hostile",
+                "damage": 25,
+                "height": 1,
+                "hp": 100,
+                "inventory": [
+                    "coin"
+                ],
+                "patrol_range": 5,
+                "range": 1,
+                "resistance": 0,
+                "size": 1,
+                "speed": 1,
+                "trigger_range": 5,
+                "type": "Enemy",
+                "width": 1
+            }
+        },
+        {
+            "x": 512,
+            "y": 96,
+            "width": 32,
+            "height": 32,
+            "attributes": {
+                "behavior": "hostile",
+                "damage": 25,
+                "height": 1,
+                "hp": 100,
+                "inventory": [
+                    "potion",
+                    "coin"
+                ],
+                "patrol_range": 5,
+                "range": 1,
+                "resistance": 0,
+                "size": 1,
+                "speed": 1,
+                "trigger_range": 5,
+                "type": "Enemy",
+                "width": 1
+            }
+        },
+        {
+            "x": 224,
+            "y": 192,
+            "width": 32,
+            "height": 32,
+            "attributes": {
+                "custom_items": {
+                    "Helmet": {
+                        "block_bonus": 0,
+                        "damage_bonus": 0,
+                        "hp_bonus": 0,
+                        "resistance": 0,
+                        "speed_bonus": 0
+                    }
+                },
+                "height": 1,
+                "inventory": [
+                    "Helmet",
+                    "Helmet",
+                    "Helmet"
+                ],
+                "item_types": {
+                    "Helmet": "Helmet"
+                },
+                "size": 1,
+                "type": "Chest",
+                "width": 1
+            }
+        }
+    ]
+}
